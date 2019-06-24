@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "delay",
+    "vst-delay"
+]
+
+exclude = [
+    "wasm-delay"
+]

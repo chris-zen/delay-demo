@@ -1,0 +1,12 @@
+[package]
+name = "wasm-delay"
+version = "0.1.0"
+authors = ["Christian Perez-Llamas"]
+edition = "2018"
+
+[dependencies]
+delay = { path = "../delay" }
+wasm-bindgen = "0.2.47"
+
+[lib]
+crate-type = ["cdylib"]

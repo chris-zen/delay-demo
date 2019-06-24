@@ -1,0 +1,12 @@
+[package]
+name = "stereo-delay"
+version = "0.1.0"
+authors = ["Christian Perez-Llamas"]
+edition = "2018"
+
+[dependencies]
+vst = { git = "https://github.com/rustaudio/vst-rs" }
+delay = { path = "../delay" }
+
+[lib]
+crate-type = ["cdylib"]
